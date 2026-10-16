@@ -9,6 +9,14 @@
 
 ---
 
+## 📸 Screenshots & UI Showcase
+
+| Material 3 Jetpack Compose Dashboard | Glassmorphic Floating SDL Control Overlay |
+| :---: | :---: |
+| <img src="docs/screenshots/dashboard.png" width="380" alt="Material 3 Dashboard"/> | <img src="docs/screenshots/overlay.png" width="380" alt="Floating Control Overlay"/> |
+
+---
+
 ## ✨ Highlights & What's New
 
 ### 📱 Single Unified All-In-One Application

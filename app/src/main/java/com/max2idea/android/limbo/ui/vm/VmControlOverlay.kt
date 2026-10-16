@@ -199,3 +199,23 @@ fun VmControlOverlay(
         }
     }
 }
+
+@androidx.compose.ui.tooling.preview.Preview(showBackground = true)
+@Composable
+fun VmControlOverlayPreview() {
+    com.max2idea.android.limbo.ui.theme.LimboTheme {
+        Box(modifier = Modifier.fillMaxSize()) {
+            VmControlOverlay(
+                vmName = "Apple Power Mac G4",
+                isPaused = false,
+                onToggleKeyboard = {},
+                onToggleKeyMapper = {},
+                onToggleMouseMode = {},
+                onSendCtrlAltDel = {},
+                onSendTextPrompt = {},
+                onPauseResume = {},
+                onStopVm = {}
+            )
+        }
+    }
+}

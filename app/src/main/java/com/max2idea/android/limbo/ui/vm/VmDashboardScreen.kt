@@ -1018,3 +1018,11 @@ fun AdvancedParamsCard(
         }
     }
 }
+
+@androidx.compose.ui.tooling.preview.Preview(showBackground = true)
+@Composable
+fun VmDashboardPreview() {
+    com.max2idea.android.limbo.ui.theme.LimboTheme {
+        VmDashboardScreen(viewModel = VmViewModel())
+    }
+}
